@@ -2,7 +2,7 @@ package application;
 
 import java.util.Scanner;
 
-public class SumMatrix {
+public class SomaMatrizes {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
@@ -13,10 +13,13 @@ public class SumMatrix {
 		for (int i = 0; i<mat.length;i++) {
 			for(int j = 0; j<mat[i].length;j++) {
 				mat[i][j] = sc.nextInt();
-				sum += mat[i][j];
+				sum = mat[i][j] + mat[i][j];
+				System.out.print( + sum + " ");
+				
 			}
+			System.out.println();
 		}
-		System.out.println("Total = " + sum);
+		
 		sc.close();
 	}
 
