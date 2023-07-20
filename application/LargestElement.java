@@ -19,7 +19,7 @@ public class LargestElement {
 				
 			}
 		}
-		System.out.println("Maior numero: " + value);
+		System.out.println("Largest Element: " + value);
 		
 		
 		sc.close();
